@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Main from './components/Main';
+import Quiz from './components/Quiz';
+import Result from './components/Result';
+import "./index.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [result, setResult] = useState({});
+
+    return (
+        <HashRouter>
+            <Routes>
+                <Route
+                    exact={true}
+                    path='/'
+                    element={<Main />}
+                />
+                <Route
+                    exact={true}
+                    path='/quiz'
+                    element={<Quiz setResult={setResult} />}
+                />
+                <Route
+                    exact={true}
+                    path='/result'
+                    element={<Result result={result} />}
+                />
+            </Routes>
+        </HashRouter>
+    )
 }
 
 export default App;

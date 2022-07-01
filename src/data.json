@@ -1,0 +1,1474 @@
+[
+    [
+        {
+            "name": "gender",
+            "title": "Ваш пол?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Мужской",
+                    "img": "man.png",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Женский",
+                    "img": "women.png",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "age",
+            "title": "Ваш возраст?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Года",
+                    "mainText": "18-24",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Года",
+                    "mainText": "25-44",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "Лет",
+                    "mainText": "45-60",
+                    "selected": false
+                },
+                {
+                    "key": 4,
+                    "text": "Лет",
+                    "mainText": "Более 65",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "alcohol",
+            "title": "Употребляете ли вы алкоголь?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Да, больше 1 раза в неделю",
+                    "img": "beverage.png",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Да, НЕ больше 1 раза в неделю",
+                    "img": "beer.png",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "Нет",
+                    "img": "no-alcohol.png",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "cigarettes",
+            "title": "Вы курите сигареты/электронные сигареты/вейп?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Да",
+                    "img": "cigarette.png",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Нет",
+                    "img": "no-smoking.png",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "sport",
+            "title": "Вы занимаетесь спортом?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Планирую",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "diet",
+            "title": "Ваш режим питания",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Ем всё",
+                    "img": "fast-food.png",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Планирую перейти на здоровое питание",
+                    "img": "healthy-food.png",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "Вегетарианская диета",
+                    "img": "diet.png",
+                    "selected": false
+                },
+                {
+                    "key": 4,
+                    "text": "Веганская диета",
+                    "img": "fruit.png",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "water",
+            "title": "Сколько чистой воды вы употребляете в сутки?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Литров",
+                    "mainText": "до 1,5",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Литра",
+                    "mainText": "1,5 - 2,5",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "Литров",
+                    "mainText": "Более 3",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "edema",
+            "title": "Наблюдаете ли вы у себя отеки?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "dietarySupplements",
+            "title": "Приобретаете ли диетические добавки для профилактики только при наличии проблемы?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "только для решения существующей проблемы",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "оба варианта верные",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "для профиклактики",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "gluten",
+            "title": "Вы употлебляете в пищу продукты, которые содержат глютен?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Да",
+                    "img": "gluten.png",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Не обращаю внимания",
+                    "img": "gluten-idk.png",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "Нет",
+                    "img": "gluten-free.png",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "lactose",
+            "title": "Употребляете вы продукты, содержащие лактозу?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "meat",
+            "title": "Как часто вы употребляете мясо?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Почти каждый день",
+                    "img": "meat-evry-day.png",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "1-2 раза в неделю",
+                    "img": "meat-sometimes.png",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "Реже 1 раза в неделю",
+                    "img": "no-meat.png",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "direction",
+            "title": "Выбирете направление, которое вас интересует",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Иммунитет",
+                    "img": "immunitet.png",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Опорно-двигательный аппарат",
+                    "img": "Support-motor-apparatus.png",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "Женское здоровье",
+                    "img": "femenine.png",
+                    "selected": false
+                },
+                {
+                    "key": 4,
+                    "text": "Кожа/ногти/волосы",
+                    "img": "dermathology.png",
+                    "selected": false
+                },
+                {
+                    "key": 5,
+                    "text": "Пищеварение",
+                    "img": "stomach.png",
+                    "selected": false
+                },
+                {
+                    "key": 6,
+                    "text": "Похудение",
+                    "img": "slim-fit.png",
+                    "selected": false
+                },
+                {
+                    "key": 7,
+                    "text": "Память, внимание, эмоции",
+                    "img": "brain.png",
+                    "selected": false
+                },
+                {
+                    "key": 8,
+                    "text": "Здоровье сердца и сосудов",
+                    "img": "heart.png",
+                    "selected": false
+                },
+                {
+                    "key": 9,
+                    "text": "Планирование беременности",
+                    "img": "pregnancy.png",
+                    "selected": false
+                },
+                {
+                    "key": 10,
+                    "text": "Зрение",
+                    "img": "vision.png",
+                    "selected": false
+                },
+                {
+                    "key": 11,
+                    "text": "Здоровье щитовидной железы",
+                    "img": "thyroid.png",
+                    "selected": false
+                },
+                {
+                    "key": 12,
+                    "text": "Герпетическая инфекция",
+                    "img": "virus.png",
+                    "selected": false
+                },
+                {
+                    "key": 13,
+                    "text": "Мужское здоровье",
+                    "img": "masculine.png",
+                    "selected": false
+                },
+                {
+                    "key": 14,
+                    "text": "Обмен веществ",
+                    "img": "metabolism.png",
+                    "selected": false
+                },
+                {
+                    "key": 15,
+                    "text": "Поддержка организма в зрелом возрасте",
+                    "img": "old-woman.png",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "orvi",
+            "title": "Как часто болеете ОРВИ?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "1-2",
+                    "text": "раза в год",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Более 2",
+                    "text": "раз в год",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "hipoInfo",
+            "title": "Вы подвержены проявлениям герпетичной информации?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "hipoInfection",
+            "title": "Склонны ли вы к проявлениям герпетической инфекции?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "chilliness",
+            "title": "Беспокоит ли вас время от времени ощущение зябкости?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "fatigue",
+            "title": "Беспокоит ли вас постоянная утомляемость?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "temperatureIncrease",
+            "title": "Бывает ли у вас безпричинное повышение температуры до 37 -37,2?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "backache",
+            "title": "Наблюдается ли у вас боль в спине?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "jointPain",
+            "title": "Наблюдается ли у вас боль в суставах?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "discomfortAfterSport",
+            "title": "Ощущаете ли вы дискомфорт и болевые ощущения в суставах после незначительных физических нагрузок?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "excessWeight",
+            "title": "Есть ли у вас лишний вес?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "pms",
+            "title": "Характерны ли для вас симптомы ПМС?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "painfulMenstruation",
+            "title": "Наблюдаются ли у вас болезненные ощущения во время менструации?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "painGlands",
+            "title": "Беспокоят ли вас болезненные ощущения в области молочных желез?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "regularMenstrualCycle",
+            "title": "Ваш менструальный цикл регулярный?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "bladderDisease",
+            "title": "Беспокоят ли вас заболевания мочевого пузыря и мочевыводящих путей?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "oralContraceptives",
+            "title": "Принимаете ли оральные контрацептивы?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "drynessIntimateArea",
+            "title": "Беспокоит ли вас ощущение сухосты в интимной зоне?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "tidesInDaytimeNight",
+            "title": "Ощущаете ли вы приливы в дневное и/или ночное время?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "moodSwings",
+            "title": "Беспокоят ли вас перепады настроения?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "menstrualPain",
+            "title": "Беспокоят ли вас менструальные боли?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "skinLessElastic",
+            "title": "Наблюдаете ли вы, что ваша кожа стала менее упругой последнее время?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "typeSkin",
+            "title": "Какой у вас тип кожи?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Нормальный",
+                    "selected": false,
+                    "img": "normalSkin.png"
+                },
+                {
+                    "key": 2,
+                    "text": "Сухой",
+                    "selected": false,
+                    "img": "drySkin.png"
+                },
+                {
+                    "key": 3,
+                    "text": "Жирный",
+                    "selected": false,
+                    "img": "fattSkin.png"
+                },
+                {
+                    "key": 4,
+                    "text": "Комбинированный",
+                    "selected": false,
+                    "img": "combinedSkin.png"
+                }
+            ]
+        },
+        {
+            "name": "typeHair",
+            "title": "Какие у вас волосы?",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Нормальные",
+                    "selected": false,
+                    "img": "normalHair.png"
+                },
+                {
+                    "key": 2,
+                    "text": "Ломкие",
+                    "selected": false,
+                    "img": "brittleHair.png"
+                },
+                {
+                    "key": 3,
+                    "text": "Поврежденные",
+                    "selected": false,
+                    "img": "damagedHair.png"
+                }
+            ]
+        },
+        {
+            "name": "typeNail",
+            "title": "Ваши ногти",
+            "columns": [
+                {
+                    "key": 1,
+                    "text": "Здоровые",
+                    "selected": false,
+                    "img": "healthyNail.png"
+                },
+                {
+                    "key": 2,
+                    "text": "Ломкие",
+                    "selected": false,
+                    "img": "brittleNail.png"
+                }
+            ]
+        },
+        {
+            "name": "dandruff",
+            "title": "Есть ли у вас перхоть?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "chronicDiseasesDigestiveSystem",
+            "title": "Есть ли у вас хронические заболевания органов пищеварения?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "flatulence",
+            "title": "Наблюдается ли у вас метеоризм?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "heavinessStomach",
+            "title": "Наблюдается ли у вас тяжесть в желудке?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "constipationOrDiarrhea",
+            "title": "Наблюдаются ли у вас запоры или поносы?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "heartburn",
+            "title": "Наблюдается ли у вас изжога?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "nausea",
+            "title": "Беспокоит ли вас тошнота время от времени?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "slimFit",
+            "title": "Наблюдаете ли вы у себя отеки и проявления целюллита?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "sleeproblems",
+            "title": "Наблюдаются ли у вас проблемы со сном?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "irritable",
+            "title": "Обращали ли вы внимание последнее время, что стал более раздражительным?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "stressResistant",
+            "title": "Вы считаете себя стрессоустойчивой личностью?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "rememberingNewInformation",
+            "title": "Испытываете ли вы трудности с запоминанием новой информации?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "focusAttention",
+            "title": "Тяжело ли вам сконцентрировать внимание на чем-то?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "headache",
+            "title": "Беспокоит ли вас головная боль?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "heart",
+            "title": "Наблюдались ли серчечно-сосудистые заболевания у ваших родителей (гипертония, атеросклероз)?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "chestPain",
+            "title": "Наблюдаются ли у вас болезненные ощущения в области грудной клетки?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "dyspnea",
+            "title": "Беспокоит ли вас отдышка?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "fatigue",
+            "title": "Беспокоит ли вас быстрая утомляемость?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "headaches",
+            "title": "Беспокоят ли вас головные боли?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "diabetes",
+            "title": "Диагностировали ли у вас или ваших родителей диабет 1 или 2 типа?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Не знаю",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "pregnancy",
+            "title": "Вы беременненны/ кормите грудью",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "text": "Но планирую",
+                    "mainText": "Нет",
+                    "selected": false
+                },
+                {
+                    "key": 3,
+                    "text": "НЕ планирую",
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "seeWorse",
+            "title": "Замечали ли вы, что видите менее четко последнее время?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "workWithComputer",
+            "title": "Большую часть рабочего времени вы проводите за компьютером?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "flashLight",
+            "title": "Ваша профессия связана с ярким светом (например, газоэлектросварщик)?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "visualAcuityDecreaseAfternoon",
+            "title": "Снижается ли у вас острота зрения во второй половине дня?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "moodSwings",
+            "title": "Замечаете ли вы за собой частые смены настроения, которые для вас не характерны?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "constantFatigue",
+            "title": "Ощущаете ли вы постоянную усталость?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "weightChange",
+            "title": "Наблюдаетя ли у вас безпричинное изменение веса в меньшую или большую сторону?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "menstrualCycleBecameIrregular",
+            "title": "Обращали ли вы внимание на то, что полеследнее время ваш менструальный цикл стал не регулярным?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "hormonalPreparations",
+            "title": "Принимаете ли вы гормональные препараты на постоянной основе?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "herpeticInfection",
+            "title": "Наблюдаются ли у вас сыпь, характерная для герпетической инфекции во время/после простудных заболеваний или после долгого пребывания на солнце?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "herpesViruses",
+            "title": "Наблюдаются ли у вашего полового партнера болезни, вызваные вирусами герпеса?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "painUrination",
+            "title": "Беспокоят ли вас болезненные ощущения во время мочеиспускания и/или частые позывы к мочеиспусканию?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "decreasedLibido",
+            "title": "Считаете ли вы, что у вас либидо снизилось?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "planningPregnant",
+            "title": "Планируете ли вы с вашей партнершей беременность?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "feelingThirst",
+            "title": "Беспокоит ли вас постоянное чувство жажды?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "suddenMoodSwings",
+            "title": "Наблюдаете ли вы за собой резкие перепады настроения?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "changeInDiet",
+            "title": "Увеличился ли у вас вес последнее время без смены режима питания?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "sharpBoutsOfIrritability",
+            "title": "Бывают ли у вас резкие приступы раздражительности, которые проходят после приема пищи?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "name": "lipidogram",
+            "title": "Здавали вы когда-либо липидограму?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "oldWomanMan",
+            "title": "Принимаете ли вы оральные контрацептивы?",
+            "columns": [
+                {
+                    "key": 1,
+                    "mainText": "Да",
+                    "selected": false
+                },
+                {
+                    "key": 2,
+                    "mainText": "Нет",
+                    "selected": false
+                }
+            ]
+        }
+    ]
+]
