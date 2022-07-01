@@ -83,7 +83,7 @@ const Quiz = ({ setResult }) => {
         return questions[currTest][currQues].columns.find((element) => element.selected === true);
     }
     
-    if (Object.keys(questions).length == 0)
+    if (Object.keys(questions).length === 0)
         return <div>Loading...</div>
 
     return (

@@ -4,7 +4,7 @@ import { getRecomandationIds } from "../pure/getRecomandationIds";
 
 function Result({ result }) {
     let dataResult = result;
-    const [, setRecomandationIds] = useState('');
+    const [recomandationIds, setRecomandationIds] = useState('');
 
     if (!Object.keys(result).length) {
         dataResult = JSON.parse(localStorage.getItem('dataResult'))
@@ -14,6 +14,8 @@ function Result({ result }) {
         setRecomandationIds(getRecomandationIds(dataResult));
     }, [dataResult]);
 
+    // recomandationIds && sendSomeWhere(recomandationIds)
+    console.log(recomandationIds);
 
     return (
         <div className='react-quiz container'>
