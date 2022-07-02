@@ -3,19 +3,29 @@ import { useState, useEffect } from "react";
 import { getRecomandationIds } from "../pure/getRecomandationIds";
 
 function Result({ result }) {
-    let dataResult = result;
     const [recomandationIds, setRecomandationIds] = useState('');
-
-    if (!Object.keys(result).length) {
-        dataResult = JSON.parse(localStorage.getItem('dataResult'))
-    }
+    const [dataResult, setDataResult] = useState({});
 
     useEffect(() => {
-        setRecomandationIds(getRecomandationIds(dataResult));
-    }, [dataResult]);
+        if (!Object.keys(result).length) {
+            setDataResult(JSON.parse(localStorage.getItem('dataResult')));
+        } else {
+            setDataResult(result);
+        }
+    }, [result]);
 
-    // recomandationIds && sendSomeWhere(recomandationIds)
-    console.log(recomandationIds);
+    useEffect(() => {
+        if (Object.keys(dataResult).length) {
+            setRecomandationIds(getRecomandationIds(dataResult));
+        }
+    }, [dataResult])
+
+    useEffect(() => {
+        if (recomandationIds) {
+            // sendSomeWhere(recomandationIds);
+            console.log(recomandationIds);
+        }
+    }, [recomandationIds])
 
     return (
         <div className='react-quiz container'>
