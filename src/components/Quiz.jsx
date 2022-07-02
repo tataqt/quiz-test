@@ -36,6 +36,7 @@ const Quiz = ({ setResult }) => {
                     dataResult = { 0: [...questions[0]] };
                     dataResult[currTest] = [...questions[currTest]];
                     setResult(dataResult);
+                    localStorage.setItem('dataResult', JSON.stringify(dataResult));
 
                     navigate('/result');
                 } else {
@@ -113,6 +114,5 @@ const Quiz = ({ setResult }) => {
         </div>
     );
 };
-
 
 export default Quiz;
